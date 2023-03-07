@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GeneralSans-Semibold";
+  font-style: semibold;
+  font-weight: 600;
+  src: local(""), url("/fonts/GeneralSans-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GTWalsheimPro-Regular";
+  font-style: regular;
+  font-weight: 400;
+  src: local(""), url("/fonts/GTWalsheimPro-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GTWalsheimPro-Medium";
+  font-style: medium;
+  font-weight: 500;
+  src: local(""), url("/fonts/GTWalsheimPro-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GTWalsheimPro-Bold";
+  font-style: bold;
+  font-weight: 700;
+  src: local(""), url("/fonts/GTWalsheimPro-Bold.woff2") format("woff2");
+}
